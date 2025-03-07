@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cg2s6mxqu5nqr"]
+
+[node name="Protagonist" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody2D"]
+root_node = NodePath("../Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]

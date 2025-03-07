@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://nk1ggwj610ml"]
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+auto_translate_mode = 2
